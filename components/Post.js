@@ -66,7 +66,7 @@ const Post = ({ id, username, userImage, img, caption }) => {
                 <img src={userImage} alt=''
                  className='rounded-full h-12 w-12
                   object-containborder p-1 mr-3'/>
-                <p className='flex-1 font-bold'>{username}</p>`
+                <p className='flex-1 font-bold'>{username}</p>
                 <DotsHorizontalIcon className='h-5' />
             </div>
             <img src={img} className='object-cover w-full' alt=''/>
